@@ -8,26 +8,26 @@ public class Solution {
     public static void main(String args[] ) throws Exception {
         
         Scanner s=new Scanner(System.in);
-        String input=s.nextLine();
-        if(input.contains("a")||input.contains("e")||input.contains("i")||input.contains("o")||input.contains("u"))
+        String str=s.nextLine();
+        if(str.contains("a")||str.contains("e")||str.contains("i")||str.contains("o")||str.contains("u"))
         {
-        if(input.contains("a"))
+        if(str.contains("a"))
         {
             System.out.print("a");
         }
-        if(input.contains("e"))
+        if(str.contains("e"))
         {
             System.out.print("e");
         }
-        if(input.contains("i"))
+        if(str.contains("i"))
         {
             System.out.print("i");
         }
-        if(input.contains("o"))
+        if(str.contains("o"))
         {
             System.out.print("o");
         }
-        if(input.contains("u"))
+        if(str.contains("u"))
         {
             System.out.print("u");
         }
