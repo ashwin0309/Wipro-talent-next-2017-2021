@@ -1,4 +1,4 @@
-package sumevenodd;
+package sumofevenodd;
 
 import java.util.Scanner;
 
